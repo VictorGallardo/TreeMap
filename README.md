@@ -17,6 +17,8 @@ Algunas características importantes del treemap son:
 Estructura interna de TreeMap
 TreeMap se basa en la estructura de datos de árbol. Cada nodo tiene tres referencias de su elemento primario, derecho e izquierdo. 
 
+![](treemapnode.png)
+
 Nodo de mapa de árbol
 Como puede ver en el diagrama, hay tres referencias en el nodo, como un elemento primario, derecho e izquierdo con las siguientes propiedades:
 
