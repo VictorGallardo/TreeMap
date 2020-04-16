@@ -26,3 +26,9 @@ Como puede ver en el diagrama, hay tres referencias en el nodo, como un elemento
 
 ### Funcionamiento de TreeMap
 Este ejemplo muestra el funcionamiento de TreeMap
+
+![](C1.jpg)
+
+Una vez ejecutamos el programa se muestran los libros en orden natural por su clave
+
+![](C2.jpg)
