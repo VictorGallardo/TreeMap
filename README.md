@@ -3,14 +3,14 @@ En este repositorio se explica el funcionamiento de la clase TreeMap pertenecien
 
 ### TreeMap en Java
 
-**TreeMap** en Java se usa para implementar la interfaz de Mapa y NavigableMap junto con la Clase Abstracta. El mapa se ordena de acuerdo con el orden natural de sus claves, o mediante un comparador proporcionado en el momento de la creación del mapa, según el constructor utilizado. 
+**TreeMap** en Java se usa para implementar la interfaz de Map y NavigableMap junto con la Clase Abstracta. Se ordena de acuerdo con el orden natural de sus claves, o mediante un comparador proporcionado en el momento de la creación, según el constructor utilizado. 
 
-Esto demuestra ser una **forma eficiente** de ordenar y almacenar los pares **clave-valor**.  La implementación del mapa de árbol no está sincronizada en el sentido de que si múltiples subprocesos acceden a un mapa, al mismo tiempo y al menos uno de los hilos modifica el mapa estructuralmente, debe sincronizarse externamente. 
+Esto demuestra ser una **forma eficiente** de ordenar y almacenar los pares **clave-valor**.  La implementación TreeMap no está sincronizada en el sentido de que si múltiples subprocesos acceden a el, al mismo tiempo y al menos uno de los hilos modifica el mapa estructuralmente, debe sincronizarse externamente. 
 
 Algunas características importantes del treemap son:
 
   - Esta clase es miembro de Java Collections Framework.
-  - La clase implementa interfaces de mapa que incluyen NavigableMap, SortedMap y extiende AbstractMap
+  - La clase implementa interfaces de map que incluyen NavigableMap, SortedMap y extiende AbstractMap
   - TreeMap en Java no permite claves nulas (como Map) y, por lo tanto, se lanza una NullPointerException. Sin embargo, se         pueden   asociar múltiples valores nulos con diferentes claves.
   - Todos los pares Map.Entry devueltos por los métodos de esta clase y sus vistas representan instantáneas de asignaciones en     el momento en que se produjeron. No admiten el método Entry.setValue.
   
